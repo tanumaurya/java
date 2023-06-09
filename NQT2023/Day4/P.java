@@ -2,7 +2,7 @@ import java.util.*;
 class Main
 { 
     public static void Main(String[] args){
-        Scanner scn = new scanner(System.in);
+        Scanner scn = new Scanner(System.in);
         String s= scn.nextLine();
         int ans = addMinChar(s);
         System.out.println(ans);

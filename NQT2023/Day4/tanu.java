@@ -4,8 +4,7 @@ class Main{
         Scanner scn = new Scanner(System.in);
         String str= scn.nextLine();
         String ans = reverseString(str);
-        System.out.println(ans);
-                        
+        System.out.println(ans);                        
     }
     public static String reverseString(String str) {
         char[] strArray = str.toCharArray();
